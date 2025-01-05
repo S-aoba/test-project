@@ -7,6 +7,6 @@ class MyClass {
   }
 
   public function sayHello(): void {
-    echo "Hello";
+    echo "Hello" . PHP_EOL;
   }
 }
