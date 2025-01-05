@@ -10,6 +10,8 @@ spl_autoload_register();
 //   include __DIR__ . '/'  . $class . '.php';
 // });
 
+// 期待する動作
+// コンソール上にHelloと表示される
 
 $myClass = new MyClass();
 $myClass->sayHello();
